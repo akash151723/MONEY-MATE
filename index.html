@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>EXPENCE Site</title>
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css"
+    />
+  </head>
+
+  <body>
+  
+    <div class="container">
+      <header class="flex">
+        <img src="./images/tc.png" alt="hover" class="hello">
+        <div class="logo">MM<span>.</span>
+        </div>
+       
+        <nav>
+          <ul class="flex">
+            <li><a href="#about">About</a></li>
+            <!-- <li><a href="#contact">Any Query</a></li> -->
+            <li><a href="#project">Features</a></li>
+            <li><a href="#contact">Contact </a></li>
+          </ul>
+          <div id="search" class="flex">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" name="" id="" placeholder="Search..." />
+          </div>
+        </nav>
+      </header>
+
+      <div class="main flex">
+        <div class="main-one">
+          <h1>MONEY MATE</h1>
+          <span class="auto">M  M</span>
+          <p>
+            An expense tracker is a sophisticated financial management tool designed to empower individuals and businesses in meticulously monitoring, organizing, and optimizing their financial transactions. This digital solution serves as a comprehensive ledger, offering a centralized platform to capture and analyze expenditures, thereby fostering informed decision-making and promoting financial health.
+          </p>
+          <form action="https://github.com/Rishi2419/Money-Mate"></form>
+          <a href="https://github.com/Rishi2419/Money-Mate">
+            <button type="submit" class="btn1">Track Try Now</button>
+          </a>
+        </form>
+        </div>
+        <div class="main-two">
+          <img src="./images/1.png" alt="" />
+        </div>
+      </div>
+
+      <section class="projects" id="project">
+        <h1>Introducing our app <br /><span>Features</span></h1>
+        <p>
+          An expense tracker simplifies financial management with precise transaction recording, automated categorization, and real-time tracking. It promotes budget adherence through personalized spending limits and insightful notifications. Seamless bank integration ensures accuracy, while user-friendly mobile access and customization options enhance the overall financial tracking experience.
+        </p>
+        <!-- <button class="button">Download app</button> -->
+        <div class="projects-div flex div-1">
+          <img src="./images/piechart.jpeg" alt="" />
+          <h3> Analysis of Finance</h3>
+          <p>
+            In a glance, the pie chart analysis of finance unveils a visual representation of budget distribution
+          </p>
+          <button>Pie Chart</button>
+        </div>
+        <div class="projects-div flex div-2">
+          <img src="./images/month date year.jpeg " alt="" />
+          <h3>Manage According to month/year</h3>
+          <p>
+            Managing expenses by categorizing and tracking month to month 
+          </p>
+          <button>Smart Managing</button>
+        </div>
+        <div class="projects-div flex div-3">
+          <img src="./images/section.jpeg" alt="" />
+          <h3>Diffrent Section of Finance</h3>
+          <p>
+            Simplified selection and ensures easy categorization and tracking</p>
+          <form action="/expense-tracker"></form>
+          <!-- <a href="/expense-tracker"> -->
+            <button type="submit" class="btn1">Section</button>
+          </a>
+        </form>
+        </div>
+      </section>
+      <br /><br />
+
+      <section class="about flex" id="about">
+        <div class="about-one">
+          <h1>About me</h1>
+          <span>MONEY MATE</span>
+          <p>
+            Meet Alex, a young professional who found themselves caught in a cycle of overspending, accumulating credit card debt, and struggling to get a grip on their finances. Alex's financial situation was becoming increasingly precarious, and they knew they needed a solution before the situation spiraled out of control.
+
+            Enter the Expense Tracker, a powerful tool that became Alex's lifeline to financial recovery. Here's how the Expense Tracker helped Alex address and solve their finance-related problem:Awareness and Budgeting,Spending Analysis, Set Budget Limits...
+          </p>
+          <div class="btns">
+            <!-- <button>Free Subscription</button> 
+            <button>Contact for Query</button>-->
+          </div>
+        </div>
+        <div class="about-two">
+          <img src="./images/1.png" alt="" />
+        </div>
+      </section>
+      <br /><br /><br />
+
+      <section class="contact" id="contact">
+        <h1>Let Us Talk<span> Freely all about Expence!</span></h1>
+        <div class="box flex">
+          <div>
+            <i class="fa-solid fa-user"></i>
+            <input type="text"placeholder="Name.."  />
+          </div>
+          <div>
+            <i class="fa-solid fa-envelope"></i>
+            <input type="email" placeholder="Email.." />
+          </div>
+          <textarea
+            name=""
+            id=""
+            cols="60"
+            rows="5"
+            placeholder="Enter your Message here...."
+          ></textarea>
+          <div>
+            <input type="submit" class="send" value="Send" />
+          </div>
+        </div>
+      </section>
+      <footer class="flex" id="footer">
+        <div class="copy">
+          Made By <a href="https//www.instagram.com/coder_mo">akash and rishi </a>
+        </div>
+        <div class="social">
+          <a
+            class="ig"
+            href="https//www.instagram.com/coder_mo"
+            target="_blank"
+          >
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+          <a class="fb" href="https//www.facebook.com/mosh3eb" target="_blank">
+            <i class="fa-brands fa-facebook"></i>
+          </a>
+          <a class="wa" href="https://wa.me/201030191239" target="_blank">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a class="ph" href="tel:+201030191239" target="_blank">
+            <i class="fa-solid fa-phone"></i>
+          </a>
+        </div>
+      </footer>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script>
+      var typed = new Typed(".auto", {
+        strings: ["M M", "Smart Spending", "Future Building"],
+        typeSpeed: 70,
+        backSpeed: 80,
+        loop: true,
+      });
+    </script>
+  </body>
+</html>
